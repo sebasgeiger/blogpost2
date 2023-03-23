@@ -1,0 +1,2 @@
+# blogpost1
+The purpose for this blog is to better understand file structure in a sveltekit application. Sveltekit is different from a basic HTML, CSS, Javascript application, the file structure is a little more complicated, but in the end saves a lot of time setting up your application to allow you more time for creativity in your application.
