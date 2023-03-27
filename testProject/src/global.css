@@ -1,0 +1,42 @@
+/*-- in /src/routes/global.css --*/
+@import url('../node_modules/simpledotcss/simple.min.css');
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --accent: black;
+  }
+}
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+body {
+  line-height: 1.7;
+  font-size: 1.4rem;
+  grid-template-columns: 1fr 6fr 1fr;
+}
+body > div {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+article, aside {
+  border-color: transparent;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 1.2em auto .5em auto;
+  color:black;
+}
+.container {
+  display: flex;
+}
+article {
+  flex: 1 0 68%;
+}
+aside {
+  margin-top: 3rem;
+  flex: 1 0 32%;
+}
+a, a:visited {
+  text-decoration: none;
+  color: black;
+}
